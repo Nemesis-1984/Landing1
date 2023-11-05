@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+body {
+    background-color: white ;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    color: #162e3c;
+    font-size: 1.6rem;
+}
+h1, h2 {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+}
+button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+.btn {
+    border-radius: 64px;
+    background-color: #ddf0a7;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.wrapper-out {
+    width: 144rem;
+    margin: 0 auto;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0;
+    background-color: #DDF0A7;
+    position: relative;
+}
+.top-header__adt {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: left;
+}
+.top-header__close {
+    display: block;
+    position: absolute;
+    right: 7.2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 8.97px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: block;
+    margin: 2.2rem 58.7rem 2.2rem 8rem;
+    width: 11.2rem;
+    height: 2.8rem;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu-item {
+    padding: 0.8rem 1.6rem;
+}
+.header__menu-item:nth-child(4) {
+    padding-right: 1.4rem;
+}
+.header__menu-link {
+    color: #162e3c;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+.header__menu-link:hover {
+    text-decoration: underline;
+}
+.fs16 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.header__actions {
+    display: flex;
+    height: 4.4rem;
+}
+.header__log {
+    width: 9.5rem;
+    margin: 0 0.6rem 0 0;
+    padding: 1rem 2.2rem;
+    padding-top: 0.8rem;
+    border-radius: 64px;
+    border: solid 2px #162e3c;
+    background: none;
+}
+.header__try {
+    width: 13.4rem;
+    margin: 0 0 0 0.6rem;
+    padding: 1rem 2.2rem;
+    border-radius: 64px;
+    border: solid 2px #162e3c;
+    background: none;
+}
+.header__log:hover,
+.header__try:hover {
+    background-color: #162e3c;
+    color: #fff;
+}
+
+
+.greeting {
+    width: 144rem;
+    padding: 9.5rem 33.6rem 10.4rem;
+    background-color: #162e3c;
+    text-align: center;
+    position: relative;
+}
+.greeting__content {
+    color: #fff;
+    
+}
+.greeting__title {
+    font-size: 5.6rem;
+    line-height: 1.2;
+    margin-bottom: 2.6rem;
+    padding: 0.031rem 0;
+}
+.greeting__text {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 2.2rem;
+    padding: 0rem 2.8rem;
+}
+.greeting__actions {
+    margin-bottom: 2.4rem;
+    padding: 1.6rem 24.3rem 0 24.4rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+}
+.greeting__get {
+    line-height: 1.6;
+    font-weight: bold;
+    border: solid 2px #ddf0a7;
+    color: #162e3c;
+    padding: 1.2rem 2.4rem;
+    margin: 0 3.2rem 0 0;
+}
+.greeting__try {
+    line-height: 1.07;
+    background: none;
+    color: #fff;
+    margin: 0 0.8rem 0 0;
+    position: relative;
+}
+.greeting__try::after {
+    content: '';
+    background-image: url('Image/arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 9rem;
+}
+.greeting__logos {
+    padding: 3.2rem 6.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greeting__logos > img {
+    margin-right: 3.2rem;
+}
+.greeting__logos > img:last-child {
+    margin-right: 0;
+}
+.greeting__decor > img {
+    display: block;
+    position: absolute;
+}
+.greeting__decor > img:nth-child(1) {
+    top: 10rem;
+    left: 0;
+}
+.greeting__decor > img:nth-child(2) {
+    top: 26rem;
+    right: 0;
+}
+.greeting__decor > img:nth-child(3) {
+    top: 51.8rem;
+    left: 0;
+}
+.greeting__rectangle {
+    padding: 16rem 72rem 0;
+    background-color: #162e3c;
+    position: absolute;
+    top: 75.3rem;
+    z-index: 1;
+}
