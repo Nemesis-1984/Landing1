@@ -243,6 +243,8 @@ ul {
     top: 27.4rem;
     right: 54.3rem;
 }
+
+
 .sales {
     width: 128rem;
     margin: 76.8rem auto 0;
@@ -309,24 +311,24 @@ ul {
     top: 0.1rem;
     left: 9rem;
 }
-/* .gg-light:hover,
-.gt-light:hover {
-    background-color: #162e3c;
-    color: #fff;
-} */
-.sales__data {
+.sales__group {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
-    text-align: left;
-    color: #162e3c;
-    margin: 0.05rem 12.5rem 0.05rem 0;
     position: absolute;
     top: 43.2rem;
     left: 22.8rem;
+    padding: 2.4rem;
     background-color: #ddf0a7;
     border-radius: 24px;
+}
+.sales__data {  
+    display: block;
+    width: 17.5rem;
+    font-weight: bold;
+    text-align: left;
+    color: #162e3c;
+    margin: 0 12.5rem 0 0;
 }
 .sales__rate {
     font-family: "Fraunces";
@@ -336,6 +338,7 @@ ul {
 }
 .sales__increase {
     font-size: 2rem;
+    font-weight: normal;
     line-height: 1.5;
 }
 .sales__icon {
