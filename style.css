@@ -274,7 +274,8 @@ ul {
     text-align: left;
 }
 .sales__text_color,
-.points__text_color {
+.points__text_color,
+.pricing__text_color {
     font-weight: bold;
     background-color: #ddf0a7;
     border-radius: 64px;
@@ -618,5 +619,138 @@ ul {
 }
 .reviews__decor > img:nth-child(2) {
     top: 0;
+    right: 0;
+}
+
+
+.pricing {
+    position: relative;
+    margin: 0 auto 12.8rem;
+}
+.pricing__text_color {
+    font-weight: normal;
+    width: 7.7rem;
+    margin: 0 auto 1.5rem;
+}
+.pricing__title {
+    text-align: center;
+}
+.pricing h2 {
+    font-size: 4.8rem;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 2.4rem;
+}
+.pricing__text {
+    font-size: 1.7rem;
+    line-height: 1.59;
+    margin: 0 0 8rem;
+    color: #49616e;
+}
+.pricing__cards {
+    margin: 0 auto 12.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+    align-items: flex-end;
+}
+.pricing__cards1,
+.pricing__cards2,
+.pricing__cards3 {
+    width: 40.5rem;
+    padding: 3.2rem 3.17rem 3.2rem 3.2rem;
+    border-radius: 32px;
+    background-color: #162e3c;
+    color: #fff;
+}
+.pricing__cards1-img {
+    display: block;
+    margin: 0 0 3.2rem 29.3rem;
+}
+.pricing__name {
+    font-family: "Fraunces";
+    font-size: 2rem;
+    line-height: 1.4;
+    margin: 0 0 0.7rem;
+}
+.pricing__cost {
+    font-family: "Fraunces";
+    font-size: 5.6rem;
+    line-height: 1.2;
+    margin: 0 0 0.8rem;
+}
+.pricing__cost > span {
+    font-size: 3.2rem;
+    line-height: 1.3;
+}
+.pricing__cost-year {
+    line-height: 1.5;
+    margin: 0 0 3.2rem;
+}
+hr {
+    /* width: 341px; */
+    height: 1px;
+    margin: 0 0.03rem 3.2rem 0;
+    background-color: #223e4e;
+    border: none;
+}
+.hr-card_light {
+    background-color: #d1e39e;
+}
+.pricing__set {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin: 0 0 1.6rem;
+}
+.pricing__items {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 0.8rem 0;
+    margin: 0 0 11rem;
+}
+.pricing__items_mb30 {
+    margin: 0 0 3rem;
+}
+.pricing__items_mb134 {
+    margin: 0 0 13.4rem;
+}
+.pricing__items > li {
+    margin: 0 0 1.6rem;
+    display: flex;
+    gap: 1.6rem;
+}
+.pricing__items > li:last-child {
+    margin: 0;
+}
+.pricing__items > img {
+    display: inline-block;
+}
+.pricing__actions {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-weight: bold;
+    display: flex;
+    /* align-items: center; */
+}
+.pricing__get,
+.pricing__get_dark {
+    border: solid 2px #ddf0a7;
+    color: #162e3c;
+    padding: 1.4rem 12.7rem;
+}
+
+.pricing__cards2 {
+    padding: 3.2rem 3.17rem 3.2rem 3.2rem;
+    background-color: #ddf0a7;
+    color: #162e3c;
+}
+.pricing__get_dark {
+    color: #fff;
+    background-color: #162e3c;
+    border: solid 2px #162e3c;
+}
+.pricing__decor {
+    position: absolute;
+    top: 3.2rem;
     right: 0;
 }
