@@ -758,6 +758,7 @@ hr {
 
 
 .blog {
+    /* width: 128rem; */
     margin: 0 auto 8rem;
 }
 .blog__text_color {
@@ -896,7 +897,9 @@ hr {
     margin: 0 2.1rem 3rem;
 }
 .form__send {
-    margin: 0 0 1.9rem;
+    margin: 0 12.8rem 1.9rem;
+    display: flex;
+    gap: 1.6rem;
 }
 .form__email {
     width: 36.8rem;
@@ -910,7 +913,6 @@ hr {
     line-height: 1.5;
     border: none;
     background-color: #fff;
-    margin: 0 1.6rem 0 12.8rem;
 }
 .form__subscribe {
     /* width: 36.8rem;
@@ -929,6 +931,67 @@ hr {
 .form__footnote {
     font-size: 1.1rem;
     line-height: 1.64;
-    margin: 0;
-    text-align: center;
+    margin: 0 13.5rem 0;
+    text-align: left;
+}
+.form__rectangle {
+    width: 144rem;
+    padding: 12.1rem 0;
+    background-color: #162e3c;
+    margin: -24.2rem auto 0;
+}
+
+
+.footer {
+    width: 144rem;
+    padding: 8rem;
+    background-color: #162e3c;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.footer__rectangle {
+    width: 128rem;
+    margin: 0 auto 8rem;
+    background-color: #162e3c;
+    display: flex;
+    gap: 11.52rem;
+}
+.footer__contacts {
+    width: 49.92rem;
+}
+.footer__contacts img {
+    margin: 0 0 2.4rem;
+}
+.footer__contacts_fsz13,
+.footer__references_fsz13 {
+    font-size: 1.3rem;
+    line-height: 1.62;
+}
+.footer__references {
+    width: 66.56rem;
+    display: flex;
+    gap: 3.2rem;
+}
+.footer__item_1,
+.footer__item_2,
+.footer__item_3 {
+    width: 20.05rem;
+}
+.footer__references_fsz15 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+}
+.footer__references li {
+    padding: 0.8rem 0;
+}
+.hr-card_dark {
+    margin-bottom: 3.2rem;
+}
+.footer__trademark {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
