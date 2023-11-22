@@ -34,6 +34,7 @@ button {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 ul {
     list-style: none;
@@ -908,11 +909,18 @@ hr {
     padding: 1.2rem 18.4rem 1.3rem 4.2rem;
     font-family: "Space Grotesk", sans-serif;
     font-weight: bold;
-    color: #162e3c;
     font-size: 1.8rem;
     line-height: 1.5;
     border: none;
     background-color: #fff;
+}
+.form__email::placeholder {
+    color: #162e3c;
+    border: none;
+}
+.form__email:focus {
+    /* border: none; */
+    outline: solid 2px #49616e;
 }
 .form__subscribe {
     /* width: 36.8rem;
@@ -924,9 +932,9 @@ hr {
     color: #fff;
     font-size: 1.8rem;
     line-height: 1.5;
-    border: none;
     border: solid 2px #162e3c;
     background-color: #162e3c;
+    cursor: pointer;
 }
 .form__footnote {
     font-size: 1.1rem;
@@ -994,4 +1002,11 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.footer__trademark-icons {
+    display: flex;
+    gap: 0.8rem;
+}
+.footer__trademark-icons img {
+    display: block;
 }
