@@ -732,7 +732,6 @@ hr {
     line-height: 1.6;
     font-weight: bold;
     display: flex;
-    /* align-items: center; */
 }
 .pricing__get,
 .pricing__get_dark {
@@ -919,7 +918,6 @@ hr {
     border: none;
 }
 .form__email:focus {
-    /* border: none; */
     outline: solid 2px #49616e;
 }
 .form__subscribe {
