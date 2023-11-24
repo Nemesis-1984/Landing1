@@ -192,7 +192,7 @@ ul {
 .features__try::after,
 .points__try::after {
     content: '';
-    background-image: url('Image/arrow.png');
+    background-image: url('images/arrow.png');
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -324,7 +324,7 @@ ul {
 .ft-light::after,
 .pt-light::after {
     content: '';
-    background-image: url('Image/arrow2.png');
+    background-image: url('images/arrow2.png');
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
